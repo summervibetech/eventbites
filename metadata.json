@@ -1,0 +1,6 @@
+{
+  "name": "Event Bites",
+  "description": "A mobile snack cart that brings fresh, beautiful bites to private events, brand activations, parties, and gatherings.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

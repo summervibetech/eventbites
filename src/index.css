@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Space+Grotesk:wght@300..700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  
+  --color-warm-cream: #FDF8F2;
+  --color-soft-white: #FDF8F2;
+  --color-sage-green: #5a7a44;
+  --color-olive-green: #4a6838;
+  --color-light-sand: #ebe3d3;
+  --color-charcoal-text: #2d2a26;
+  --color-natural-border: #d9d0bf;
+  --color-natural-wood: #b5835a;
+  --color-natural-slate: #7a8f6e;
+  --color-natural-sand: #cfc5a0;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-warm-cream text-charcoal-text font-sans antialiased selection:bg-sage-green/20 selection:text-olive-green;
+  }
+}
+
+/* Custom wavy animations or dotted design patterns for our cart and organic lines */
+@keyframes sway {
+  0%, 100% { transform: rotate(-1deg); }
+  50% { transform: rotate(1deg); }
+}
+
+.animate-sway {
+  animation: sway 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-5px); }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
