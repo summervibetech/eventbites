@@ -74,7 +74,7 @@ const translations = {
     perfectFor: {
       sectionLabel: 'Occasions',
       heading: 'Perfect for your next gathering.',
-      sub: 'From intimate celebrations to lively brand events, we make mobile snack service feel incredibly easy and beautiful.',
+      sub: 'From intimate celebrations to lively brand events, we make snack catering feel incredibly easy and beautiful.',
       selectLabel: 'Select Your Event Style:',
       recommendedExp: 'Recommended Experience',
       idealFormats: 'Ideal Formats:',
@@ -225,7 +225,7 @@ const translations = {
     howItWorks: {
       sectionLabel: 'The Process',
       heading: 'Easy from first message to final bite.',
-      sub: 'We have designed every step of our mobile snack service to be completely effortless, professional, and transparent.',
+      sub: 'We have designed every step of our snack catering to be completely effortless, professional, and transparent.',
       ctaNote: 'Have questions about load-in, elevator clearances, or serving logistics?',
       ctaLink: 'Read our operations guide or ask on booking chat below',
       steps: [
@@ -402,7 +402,7 @@ const translations = {
     perfectFor: {
       sectionLabel: 'Ocasiones',
       heading: 'Perfecto para tu próxima reunión.',
-      sub: 'Desde celebraciones íntimas hasta animados eventos de marca, hacemos que el servicio de bocados móvil sea increíblemente fácil y hermoso.',
+      sub: 'Desde celebraciones íntimas hasta animados eventos de marca, hacemos que el servicio de catering de bocados sea increíblemente fácil y hermoso.',
       selectLabel: 'Selecciona el Estilo de tu Evento:',
       recommendedExp: 'Experiencia Recomendada',
       idealFormats: 'Formatos Ideales:',
@@ -553,7 +553,7 @@ const translations = {
     howItWorks: {
       sectionLabel: 'El Proceso',
       heading: 'Fácil desde el primer mensaje hasta el último bocado.',
-      sub: 'Hemos diseñado cada paso de nuestro servicio de bocados móvil para que sea completamente sencillo, profesional y transparente.',
+      sub: 'Hemos diseñado cada paso de nuestro catering de bocados para que sea completamente sencillo, profesional y transparente.',
       ctaNote: '¿Tienes preguntas sobre logística, acceso o el servicio?',
       ctaLink: 'Lee nuestra guía de operaciones o pregunta en el chat de reserva',
       steps: [

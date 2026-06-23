@@ -54,7 +54,7 @@ export default function InquiryHub({
       
       const lowerText = userText.toLowerCase();
       if (lowerText.includes('price') || lowerText.includes('cost') || lowerText.includes('quote')) {
-        replyText = "Our mobile cart booking starts at a base rate of $250 which includes cart delivery, complete set up, compostable cups, and 2 hours of active guest service. The final pricing depends on your guest count and snack choices. Your current custom selections look perfect, and I'm drafting a bespoke invoice for you now!";
+        replyText = "Our snack catering booking starts at a base rate of $250 which includes cart delivery, complete set up, compostable cups, and 2 hours of active guest service. The final pricing depends on your guest count and snack choices. Your current custom selections look perfect, and I'm drafting a bespoke invoice for you now!";
       } else if (lowerText.includes('allergy') || lowerText.includes('allergic') || lowerText.includes('gluten') || lowerText.includes('vegan')) {
         replyText = "We take dietary restrictions very seriously! Our Fresh Fruit and Crudités cups are 100% gluten-free and vegan. We can also provide nut-free, vegan pastries and alternative milk options. I've added a special kitchen note to your event file.";
       } else if (lowerText.includes('tassel') || lowerText.includes('style') || lowerText.includes('color') || lowerText.includes('umbrella')) {
