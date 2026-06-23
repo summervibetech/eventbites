@@ -325,7 +325,7 @@ const translations = {
       bookDate: 'Book Your Date',
       getInTouch: 'Get In Touch',
       available: 'Available for private events and pop-ups',
-      copyright: '© 2026 Event Bites LLC. All rights reserved.',
+      copyright: '© 2026 Event Bites. All rights reserved.',
     },
   },
 
@@ -653,7 +653,7 @@ const translations = {
       bookDate: 'Reserva tu Fecha',
       getInTouch: 'Contáctanos',
       available: 'Disponible para eventos privados y pop-ups',
-      copyright: '© 2026 Event Bites LLC. Todos los derechos reservados.',
+      copyright: '© 2026 Event Bites . Todos los derechos reservados.',
     },
   },
 };
