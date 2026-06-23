@@ -48,6 +48,30 @@ export default function Hero({
       {/* Sun Ray Effect */}
       <div className="absolute -top-40 right-10 w-[500px] h-[500px] bg-amber-50/20 rounded-full blur-3xl -z-10" />
 
+      {/* Floating Food Decorations */}
+      <div className="absolute inset-0 pointer-events-none overflow-hidden select-none" aria-hidden="true">
+        {/* Cupcake – top left */}
+        <span className="absolute top-[12%] left-[4%] text-6xl opacity-30 animate-float" style={{ animationDelay: '0s', transform: 'rotate(-12deg)' }}>🧁</span>
+        {/* Coffee – top right */}
+        <span className="absolute top-[8%] right-[6%] text-7xl opacity-25 animate-float" style={{ animationDelay: '1.2s', transform: 'rotate(8deg)' }}>☕</span>
+        {/* Banana – mid left */}
+        <span className="absolute top-[44%] left-[2%] text-6xl opacity-25 animate-float" style={{ animationDelay: '0.6s', transform: 'rotate(-6deg)' }}>🍌</span>
+        {/* Lollipop – bottom left */}
+        <span className="absolute bottom-[14%] left-[7%] text-5xl opacity-30 animate-float" style={{ animationDelay: '2s', transform: 'rotate(15deg)' }}>🍭</span>
+        {/* Ice cream – bottom right */}
+        <span className="absolute bottom-[16%] right-[5%] text-6xl opacity-28 animate-float" style={{ animationDelay: '0.9s', transform: 'rotate(-10deg)' }}>🍦</span>
+        {/* Candy – mid right */}
+        <span className="absolute top-[52%] right-[3%] text-5xl opacity-25 animate-float" style={{ animationDelay: '1.8s', transform: 'rotate(20deg)' }}>🍬</span>
+        {/* Cake slice – upper center */}
+        <span className="absolute top-[20%] right-[20%] text-4xl opacity-20 animate-float" style={{ animationDelay: '3s', transform: 'rotate(-5deg)' }}>🍰</span>
+        {/* Chocolate – lower center */}
+        <span className="absolute bottom-[30%] left-[20%] text-4xl opacity-20 animate-float" style={{ animationDelay: '2.4s', transform: 'rotate(10deg)' }}>🍫</span>
+        {/* Donut – upper mid-left */}
+        <span className="absolute top-[30%] left-[12%] text-4xl opacity-20 animate-float" style={{ animationDelay: '1.5s', transform: 'rotate(-18deg)' }}>🍩</span>
+        {/* Strawberry – lower mid-right */}
+        <span className="absolute bottom-[38%] right-[14%] text-4xl opacity-20 animate-float" style={{ animationDelay: '2.8s', transform: 'rotate(12deg)' }}>🍓</span>
+      </div>
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
 

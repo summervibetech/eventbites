@@ -31,6 +31,13 @@ export default function About({ language }: AboutProps) {
 
   return (
     <section id="about" className="py-20 bg-warm-cream/30 border-y border-natural-border relative overflow-hidden">
+      {/* Floating food accents */}
+      <div className="absolute inset-0 pointer-events-none overflow-hidden select-none" aria-hidden="true">
+        <span className="absolute top-[10%] right-[8%] text-4xl opacity-[0.10] animate-float" style={{ animationDelay: '0.5s', transform: 'rotate(12deg)' }}>🧁</span>
+        <span className="absolute bottom-[10%] left-[5%] text-4xl opacity-[0.10] animate-float" style={{ animationDelay: '1.5s', transform: 'rotate(-8deg)' }}>☕</span>
+        <span className="absolute top-[50%] left-[2%] text-3xl opacity-[0.09] animate-float" style={{ animationDelay: '2.2s', transform: 'rotate(6deg)' }}>🍬</span>
+      </div>
+
       {/* Decorative leaf SVGs in background */}
       <div className="absolute top-12 left-6 w-16 h-16 text-sage-green/10 pointer-events-none">
         <svg viewBox="0 0 24 24" fill="currentColor" className="w-full h-full">
