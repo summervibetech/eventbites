@@ -270,7 +270,7 @@ export default function BookingForm({
           </div>
 
           {/* Right Column: Live Proposal Preview Card (5 cols on lg) */}
-          <div className="lg:col-span-5">
+          <div className="hidden lg:block lg:col-span-5">
             <div className="bg-warm-cream/35 border border-natural-border p-6 sm:p-8 rounded-[32px] h-full flex flex-col justify-between text-left relative overflow-hidden shadow-xs">
               <div className="absolute top-0 right-0 w-32 h-32 bg-sage-green/5 rounded-bl-full pointer-events-none" />
 

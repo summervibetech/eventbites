@@ -49,7 +49,7 @@ export default function Hero({
       <div className="absolute -top-40 right-10 w-[500px] h-[500px] bg-amber-50/20 rounded-full blur-3xl -z-10" />
 
       {/* Floating Food Decorations */}
-      <div className="absolute inset-0 pointer-events-none overflow-hidden select-none" aria-hidden="true">
+      <div className="hidden sm:block absolute inset-0 pointer-events-none overflow-hidden select-none" aria-hidden="true">
         {/* Cupcake – top left */}
         <span className="absolute top-[12%] left-[4%] text-6xl opacity-30 animate-float" style={{ animationDelay: '0s', transform: 'rotate(-12deg)' }}>🧁</span>
         {/* Coffee – top right */}
